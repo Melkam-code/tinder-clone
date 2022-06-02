@@ -1,12 +1,13 @@
 import './App.css';
+import Header from './components/Header';
+import TinderCards from './components/TinderCards';
 
 function App() {
   return (
     <div className="app">
-    <h1>MERN</h1>
-    {/* header */}
+      <Header />
 
-    {/* tinderCard */}
+      <TinderCards />
 
     {/* bar */}
     </div>
