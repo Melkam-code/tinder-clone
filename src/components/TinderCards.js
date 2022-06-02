@@ -30,7 +30,7 @@ function TinderCards() {
           <TinderCard
             className="swipe"
             key={p.name}
-            preventSwipe={(dir) => swiped(dir, p.name)}
+           // preventSwipe={(dir) => swiped(dir, p.name)}
             onCardLeftScreen={() => outOfFrame(p.name)}
           >
             <div className="card" style={{ backgroundImage: `url(${p.url})` }}>

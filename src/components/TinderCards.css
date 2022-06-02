@@ -1,5 +1,6 @@
 .tinder-card {
-
+   width: 100%;
+   width: 100%;
 }
 
 .tinder-card-container {
@@ -19,6 +20,13 @@
     border-radius: 20px;
     background-size: cover;
     background-position: center;
+}
+
+.card h3 {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    color: white;
 }
 
 .swipe {
